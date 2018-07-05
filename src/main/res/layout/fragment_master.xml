@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.example.admin.designandroid.MainActivity"
+    android:orientation="vertical">
+
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:id="@+id/images_grid_view"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:padding="16dp"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:numColumns="3"
+            android:columnWidth="18dp"
+        />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:text="Next" />
+
+</LinearLayout>
